@@ -34,7 +34,7 @@ export const calculatorButtonStyles = StyleSheet.create({
     color: "#3d3d3d",
   },
   input: {
-    backgroundColor: "#ff0000",
+    backgroundColor: "#ffffff",
   },
   operator: {
     backgroundColor: "#8747f1",
