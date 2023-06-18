@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "calculator",
-    "slug": "calculator",
+    "name": "my-app",
+    "slug": "my-app",
     "version": "1.0.0",
-    "orientation": "default",
+    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
