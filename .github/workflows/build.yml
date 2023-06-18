@@ -2,7 +2,7 @@ name: Build and Deploy on GH Pages
 on:
   push:
     branches:
-      - main
+      - github-pages-deployment
 permissions:
   contents: write
 jobs:
