@@ -1,0 +1,76 @@
+import { StyleSheet } from "react-native";
+
+export const horizontalStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#e5e1f1",
+    alignItems: "center",
+    paddingVertical: 10,
+    paddingHorizontal: 15,
+  },
+  calculator: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+  },
+  display: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "row",
+    backgroundColor: "#ffffff",
+    borderRadius: 35,
+    paddingVertical: 15,
+    paddingHorizontal: 25,
+    gap: 5,
+  },
+  storage: {
+    display: "flex",
+    flexDirection: "row",
+    height: 50,
+    gap: 5,
+  },
+  storedNumber: {
+    fontFamily: "Schibsted-Grotesk",
+    textAlign: "right",
+    fontSize: 36,
+    lineHeight: 50,
+    color: "#3d3d3d",
+  },
+  operator: {
+    fontFamily: "Schibsted-Grotesk",
+    fontSize: 36,
+    lineHeight: 50,
+    color: "#6300ff",
+  },
+  input: {
+    flex: 1,
+    fontFamily: "Schibsted-Grotesk",
+    textAlign: "right",
+    fontSize: 36,
+    height: 50,
+    width: "100%",
+    color: "#3d3d3d",
+  },
+  numpad: {
+    maxWidth: 600,
+    maxHeight: 600,
+    marginTop: 10,
+    gap: 10,
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    flex: 1,
+  },
+  numrow: {
+    flex: 1,
+    gap: 10,
+    display: "flex",
+    flexDirection: "row",
+  },
+  icon: {
+    width: 32,
+    height: 32,
+  },
+});
